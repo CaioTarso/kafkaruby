@@ -30,25 +30,17 @@ Este projeto é uma simulação de um **sistema de detecção de fraude** em tra
 ---
 
 ## 🔹 Estrutura do projeto
-
-fraude-project/
-
+```bash
+kafkaruby/
 ├── database.rb # Configuração do banco e criação de tabelas
-
 ├── models/
-
 │ └── transaction.rb # Modelo de transações
-
 ├── producer.rb # Gera e envia transações para Kafka
-
 ├── consumer.rb # Consome transações, detecta fraude e persiste no banco
-
 ├── Gemfile
-
-├── Gemfile.lock
-
+├── Gemfile.loc
 └── README.md
-
+```
 
 ---
 
