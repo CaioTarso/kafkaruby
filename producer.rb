@@ -3,6 +3,7 @@ require "ruby-kafka"
 require "faker"
 require "json"
 
+Faker::Config.locale = "pt-BR"
 
 kafka = Kafka.new(["localhost:9092"], client_id: "fraude-producer")
 
