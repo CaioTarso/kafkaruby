@@ -1,4 +1,3 @@
-# producer.rb
 require "ruby-kafka"
 require "faker"
 require "json"

@@ -1,4 +1,3 @@
-# consumer.rb
 require "ruby-kafka"
 require "json"
 require "time"
